@@ -122,12 +122,18 @@ background-color: #2e2f42;
 padding: 188px 0;
 
 }
+.hero-img{
+    background-image: rgba (46, 47, 66, 0.7);
+    max-width: 1440px;
+    margin: 0;
+}
 .container-hero{
 
 }
 p,h1,h2,h3{
     margin: 0;
 }
+
 .hero-title{
     font-size: 56px;
     line-height: 1.07;
@@ -350,4 +356,4 @@ p{
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em ;
-}
+} 
