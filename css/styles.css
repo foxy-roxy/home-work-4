@@ -135,6 +135,7 @@ gap: 40px;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 .address-link:hover{
     color: #404bbf; 
@@ -365,8 +366,8 @@ h3{
     row-gap: 48px;
 }
 .project-list:hover{
-     transition: box-shadow 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-     box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    
 }
 .project-item{
     width: calc((100% - 48px) / 3);
@@ -375,6 +376,7 @@ h3{
 }
 .project-item:hover .app-content {
     transform: translateY(0%);
+    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .container-app{
@@ -392,7 +394,7 @@ h3{
     background-color: #4d5ae5; 
     height: 100%;
     width: 100%;
-    translateY(100%); 
+    transform: translateY(100%); 
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
