@@ -368,7 +368,7 @@ h3{
     row-gap: 48px;
 }
 .project-list:hover{
-    transform: translateY(0%);
+  
 }
 .project-item{
     width: calc((100% - 48px) / 3);
@@ -384,6 +384,7 @@ h3{
 .container-app{
     position: relative;
     overflow: hidden; 
+    transform: translateY(0%);
 }
 .app-content{
     position: absolute;
