@@ -384,9 +384,11 @@ h3{
 .container-app{
     position: relative;
     overflow: hidden; 
+   
+}
+.container-app:hover{
     transform: translateY(0%);
 }
-
 .app-content{
     position: absolute;
     top: 0; 
