@@ -384,8 +384,9 @@ h3{
 .container-app{
     position: relative;
     overflow: hidden; 
-  
+    transform: translateY(0%);
 }
+
 .app-content{
     position: absolute;
     top: 0; 
@@ -403,9 +404,8 @@ h3{
 
 
 }
-.app-content:hover{
-  transform: translateY(0%);
-}
+.app-content:hover{}
+  
 .item-list{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
